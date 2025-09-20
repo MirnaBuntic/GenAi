@@ -1,6 +1,8 @@
 import React from 'react'
 import './Main.css'
 import seoImage from '../assets/genAI_bild.png'
+import image1 from '../assets/genAI_bild2.png'
+import image2 from '../assets/genAI_bild3.png'
 
 const Main = () => {
   return (
@@ -26,6 +28,13 @@ const Main = () => {
         <div className="feature-card">
           <h2>Long-Term Benefits of SEO for Your Business</h2>
           <p>Unlike paid advertising, SEO is a long-term investment that continues to drive results over time. A well-optimized site can generate consistent organic traffic without ongoing ad spend. Moreover, SEO builds credibility—appearing at the top of search results makes your brand look trustworthy and authoritative. When combined with great content and user experience, SEO can help your business grow sustainably.</p>
+        </div>
+      </section>
+
+      <section className="additional-images">
+        <div className="image-container">
+          <img src={image1} alt="SEO Optimization" className="additional-image" />
+          <img src={image2} alt="SEO Strategy" className="additional-image" />
         </div>
       </section>
     </main>
