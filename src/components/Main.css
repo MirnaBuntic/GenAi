@@ -16,10 +16,25 @@
 }
 
 .hero > *,
-.features {
+.features,
+.image-section {
   width: min(1400px, 100%);
   margin: 0 auto;
   box-sizing: border-box;
+}
+
+.image-section {
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .features {

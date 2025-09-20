@@ -1,5 +1,6 @@
 import React from 'react'
 import './Main.css'
+import seoImage from '../assets/genAI_bild.png'
 
 const Main = () => {
   return (
@@ -7,6 +8,10 @@ const Main = () => {
       <section className="hero">
         <h1>Welcome to the SEO club!</h1>
         <p>Learn how important SEO is for your website</p>
+      </section>
+      
+      <section className="image-section">
+        <img src={seoImage} alt="SEO Illustration" className="feature-image" />
       </section>
       
       <section className="features">
